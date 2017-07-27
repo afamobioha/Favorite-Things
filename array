@@ -1,0 +1,21 @@
+var thing = ['Barcelona', 'Neymar', 'Blue', 'Soccer', 'Nigeria'];
+for(var i = 0; i<thing.length; i++){
+var nth
+if(i == 0){
+nth = 'st';
+}
+else if(i == 1){
+nth = 'nd';
+}
+else if (i == 2){
+nth = 'rd';
+}
+else if (i == 3){
+nth = 'th';
+}
+else if (i == 4){
+nth = 'th';
+}
+console.log('My ' + (i+1) + nth +' favorite thing is ' + thing[i] + '.');
+
+}
